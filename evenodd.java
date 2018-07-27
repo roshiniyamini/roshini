@@ -15,7 +15,7 @@ class Ideone
 		}
 		else if(c>'a' && c<'z')
 		{
-			System.out.println("consonant");
+			System.out.println("Consonant");
 		}
 		else
 		{
