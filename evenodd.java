@@ -13,7 +13,7 @@ class Ideone
 		{
 			System.out.println("Vowel");
 		}
-		else if(c>'a' && c<'z')
+		else if(c>='a' && c<='z')
 		{
 			System.out.println("Consonant");
 		}
