@@ -13,7 +13,7 @@ class Ideone
 		for(int i=1;i<=5;i++)
 		{
 			result=n*i;
-			System.out.println(result);
+			System.out.println(result+" ");
 		}
 	}
 }
