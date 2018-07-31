@@ -10,10 +10,21 @@ class Ideone
 		Scanner s=new Scanner(System.in);
 		int N=s.nextInt();
 		int Q=s.nextInt();
+		int l=0;
 		for(int i=N+1;i<Q;i++)
 		{
 			if(i%2!=0)
-			System.out.println(i+" ");
-		}
+			{
+				if(l<1)
+				{
+			           System.out.println(i);
+				}
+				else
+				{
+				System.out.println(" ");
+				System.out.println(i);	
+		                }
+			}
+		}	
 	}
 }
