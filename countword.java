@@ -7,11 +7,11 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		String st;
-		Scanner s=new Scanner(System.in);
-		st=s.nextLine();
-		int word=0;
-		String[] st1=st.split(" ");
-		System.out.print(st1.length);
+		 String st;
+		 Scanner s=new Scanner(System.in);
+		 st=s.nextLine();
+		 int word=0;
+		 String[] st1=st.split(" ");
+		 System.out.print(st1.length);
 	}
 }
