@@ -21,15 +21,15 @@ class Ideone
 			{
 				if(a[i]>a[j])
 				{
-					temp=a[i];
-					a[i]=a[j];
-					a[j]=temp;
+				   temp=a[i];
+				   a[i]=a[j];
+				   a[j]=temp;
 				}
 			}
 		}
 		for(int i=0;i<n;i++)
 		{
-			System.out.print(a[i]+" ");
+		   System.out.print(a[i]+" ");
 		}
 	}
 }
