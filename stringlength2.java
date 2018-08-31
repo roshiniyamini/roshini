@@ -18,6 +18,10 @@ class Ideone
 		{
 			System.out.println(st2);
 		}
+		if(st2.length()==st1.length())
+		{
+	                        System.out.println(st1);
+		}	
 		
 	}
 }
